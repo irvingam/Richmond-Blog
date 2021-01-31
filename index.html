@@ -4,46 +4,43 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
         <title>Richmond Blog</title>
     </head>
 
     <body>
-        <div id="nav-bar" class="nav-bar">
-            <a href="#home" class="active">Home</a>
-            <a href="#newsblog">News Blog</a>
-            <a href="#food">Restaurants</a>
-            <a href="#lodging">Lodging</a>
-            <a href="#entertainment">Entertainment</a>
-            <a href="#history">History</a>
-        </div>
+        <header>
+            <nav id="nav-bar" class="nav-bar">
+                <a href="#home" class="active">Home</a>
+                <a href="#food">Restaurants</a>
+                <a href="#lodging">Lodging</a>
+                <a href="#entertainment">Entertainment</a>
+                <a href="#history">History</a>
+            </nav>
+        </header>    
 
-        <div id="title-wrapper" class="titles">
-            <div class="title">Welcome to Richmond</div>
-        </div>
+       <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">Introduction</h1>
+            <h2 class="section__subtitle section__subtitle--intro">Welcome to Richmond</h2>
+            <p>Richmond, Virginia is one of the oldest cities in the U.S. Its ever changing landscape has created
+                a blend of modern and historical vibes.
+            </p>
+       </section>
 
-        <div id="locations-wrapper" class="titles">
-            <div class="locations-title">Locations</div>
-        </div>
-
-        <div id="resturants-wrapper" class="titles">
-            <div class="resturants-title">Eats!</div>
-        </div>
-
-        <div id="history-wrapper" class="titles">
-            <div class="history-title">History of Richmond</div>
-        </div>
-
-        <div id="entertainment-wrapper" class="titles">
-            <div class="entertainment-title">Entertainment</div>
-        </div>
-
-        <div id="school-wrapper" class="titles">
-            <div class="school-title">Schooling</div>
-        </div>
-
-        <div id="growth-wrapper" class="titles">
-            <div class="growth-title">Growth</div>
-        </div>
+       <section class="food" id="food">
+            <h1 class="section__title section__title--food">Food and Beverage</h1>
+            <div class="thevillage">
+                <h2 class="section__subtitle section__subtitle--thevillage">The Village</h2>
+                <p>Located on Grace Street in the heart of VCU, The Village is known nationally as a place to go
+                    when visiting Richmond. This simple dinner has a large selection of great dishes ranging from
+                    full size subs, to pasta dishes, to delicious sandwiches. After finshing a meal, one can choose
+                    one of their famous milkshakes for desert.
+                </p>
+                <img src="thevillage-img.jpg">
+            </div>
+       </section>
+        
 
 
     </body>
@@ -56,5 +53,5 @@
 
 
 
-    <footer>Gnivri Software™</footer>
+    
 </html>
