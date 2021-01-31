@@ -1,40 +1,43 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem;
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
+/* Custom Properties */
+
+:root {
+    --ff-primary: 'Ubuntu', sans-serif;
+
+    --fw-reg: 400;
+    --fw-bold: 900;
+
+    --clr-light: #ffffff;
+    --clr-dark: #303033;
+    --clr-accent: #d4d100;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
