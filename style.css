@@ -15,6 +15,11 @@
     --clr-dark: #303033;
     --clr-accent: #d4d100;
 
+    --fs-h1: 3rem;
+    --fs-h2: 2.5rem;
+    --fs-h3: 1.25rem;
+
+    --bs: 0.25em 0.25em 0.75em rgba(0,0,0,0.5);
 }
 
 
