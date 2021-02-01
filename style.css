@@ -18,11 +18,30 @@
     --fs-h1: 3rem;
     --fs-h2: 2.5rem;
     --fs-h3: 1.25rem;
+    --fs-body: 1rem;
 
     --bs: 0.25em 0.25em 0.75em rgba(0,0,0,0.5);
 }
 
+/* General Styles */
 
+body {
+    background: var(--clr-light);
+    color: var(--clr-dark);
+    margin: 0%;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+    line-height: 1.6;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+section {
+    padding: 5em 2em;
+}
 
 
 
